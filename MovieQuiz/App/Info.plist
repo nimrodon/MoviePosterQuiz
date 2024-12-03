@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TMDB_ACCESS_TOKEN</key>
+	<string>&lt;YOUR_TMDB_ACCESS_TOKEN&gt;</string>
+	<key>GAME_CENTER_LEADERBOARD_ID</key>
+	<string>MoviePosterQuizScoreLeaderboard_Shared</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Merriweather-Regular.ttf</string>
+		<string>Merriweather-Bold.ttf</string>
+	</array>
+</dict>
+</plist>
