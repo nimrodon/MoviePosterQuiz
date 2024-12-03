@@ -27,10 +27,15 @@
   > **Note:** The quiz will still work without an API key because it includes a fallback local movies file for offline or tokenless use.
 
 - **Game Center Leaderboard:**  
-  The app uses a shared Game Center leaderboard for experimentation. If you wish to have your own private leaderboard:
-  1. Create your own app in App Store Connect with Game Center entitlements.
-  2. Create a new leaderboard in App Store Connect.
-  3. Replace the `leaderboardID` value in the `Info.plist` file with your new leaderboard ID.
+  The app uses a shared Game Center leaderboard for experimentation. please do not modify the target's bundle ID if you want to use it, as the shared leaderboard ID is tied to it.
+  If you wish to set up your own private leaderboard:
+  - Create your own app in App Store Connect with Game Center entitlements.
+  - Create a new leaderboard in App Store Connect.
+  - Replace the bundle ID with your new app's bundle ID.
+  - Update the `leaderboardID` value in the `Info.plist` file with your new leaderboard ID.
+    <br><br>
+  > **Note:** The Game Center leaderboard might not work on the iOS simulator. Use a physical device to test leaderboard functionality.
+
 
 ## Popularity Parameters
 
