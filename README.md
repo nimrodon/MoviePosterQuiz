@@ -2,6 +2,9 @@
 
 **Movie Poster Quiz** is a quiz about movie posters where each question presents you with a movie overview text. Your task is to identify the correct movie poster from a choice of four options. 
 
+## Screenshot
+
+<img src="screenshot.png" width="400">
 
 ## Features
 - **Extensive Movie Database**: Questions are sourced from hundreds of thousands of movies provided by  [TheMovieDB.org](https://www.themoviedb.org/).
